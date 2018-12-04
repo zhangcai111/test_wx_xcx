@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view>
+  <view wx:for="{{imageBannerArr}}"  wx:key="{{item.index}}">
+    <image class='banner-img' wx-if="{{item.show}}" src='{{item.src}}'></image>
+   
+  </view>
+  <view class='circle-wapper'>
+   <view class='circle' wx:for="{{imageBannerArr}}" data-arr-index="{{item.index}}" wx:key="{{item.index}}" bindtap="handleChangeBanner"></view>
+  </view>
+  <view class='cooperation'>
+    <view class='cooperation-content'  wx:for='{{cooperationArr}}' wx:key='{{item.index}}'>
+      <image class='coop-img' src='{{item.src}}'></image>
+      <view id='coopxx'>
+        <text style='font-size:18px;'>{{item.title}}\n</text>
+        <text>{{item.description}}</text>
+      </view>
+      <view>
+      <view class='coop-products'>{{item.products}}</view>
+      <button class='coop-button' data-coop-title='{{item.title}}' wx-if='{{item.coopButton}}' bindtap='handleCooperation'>意向合作</button>
+        <!-- <navigator class='coop-button' url="/pages/search/search">意向合作</navigator> -->
+      </view>
+    </view>
+  </view>
+</view>

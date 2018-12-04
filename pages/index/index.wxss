@@ -1,0 +1,62 @@
+/**index.wxss**/
+page{
+  background: #EBEBEB;
+}
+.banner-img{
+  width: 375px;
+  height: 170px;
+  position: absolute;
+}
+.circle-wapper{
+  position: absolute;
+  text-align: center;
+  margin-top: 150px;
+  margin-left: 158px;
+}
+.circle{
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  float: left;
+  border-radius: 5px;
+  margin:0px 5px;
+  opacity: 0.8;
+}
+.cooperation{
+  position: absolute;
+  top: 190px;
+  margin-left: 15px;
+  
+}
+.cooperation-content{
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding-bottom: 10px; 
+}
+.coop-img{
+  width: 345px;
+  height: 145px;
+}
+text{
+  color: #fff;
+  font-size: 16px;
+  padding-left: 10px;
+}
+#coopxx{
+  position: absolute;
+  margin-top: -110px;
+}
+.coop-products{
+  color: #666;
+  font-size: 18px;
+ float: left;
+ margin-left: 10px;
+ line-height: 40px;
+}
+.coop-button{
+  background-color: #ED7020;
+  color: #fff;
+  width: 100px;
+  line-height: 40px;
+  margin-left: 235px;
+}

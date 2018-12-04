@@ -1,0 +1,75 @@
+.banner-img{
+  width: 375px;
+  height: 170px;
+}
+.coop-form{
+  height: 250px;
+  margin-top: 20px;
+}
+.form-area{
+  width: 340px;
+  line-height: 50px;
+  padding-left: 15px;
+  background: #EBEBEB;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-radius: 8px;
+}
+.form-img{
+  width: 18px;
+  height: 18px;
+}
+.form-field{
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+  padding: 0 5px;
+  width:280px;
+  height: 30px;
+}
+.form-button{
+  color: #fff;
+  background-color: #ED7020;
+  width:355px;
+  letter-spacing: 2px;
+}
+.cooperation-flow{
+  position: absolute;
+}
+.flow-img{
+  width: 74px;
+  height: 110px;
+  float: left;
+}
+.flow-img-1{
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 50px;
+}
+.flow-img-2{
+  margin-right: 50px;
+}
+.flow-img-3{
+  margin-top: 30px;
+}
+.flow-img-line-1{
+  width: 100px;
+  height: 65px;
+   margin-left: 25px;
+}
+.flow-img-line-2{
+  width: 125px;
+  height: 30px;
+  margin-bottom: 45px;
+}
+.flow-img-line-3{
+  width: 103px;
+  height: 65px;
+}
+.flow-img-text{
+  width: 105px;
+  height: 27px;
+  position: absolute;
+  left: 140px;
+  bottom: 10px;
+}

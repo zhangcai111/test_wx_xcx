@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/cooperation/cooperation",
+    "pages/logs/logs"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#EBEBEB",
+    "navigationBarTitleText": "汇联客户营销",
+    "navigationBarTextStyle":"black"
+  }
+}

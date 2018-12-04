@@ -1,0 +1,30 @@
+<view>
+  <image class='banner-img' src='../resources/cooperation-banner.png'></image>
+  <view class='coop-form'>
+    <view class='form-area'>
+      <image class='form-img' src='../resources/cooperation-name.png'></image>
+      <input class='form-field' placeholder="公司名称"/>
+    </view>
+    <view class='form-area'>
+      <image class='form-img' src='../resources/cooperation-man.png'></image>
+      <input class='form-field' placeholder="联系人"/>
+    </view>
+    <view class='form-area'>
+      <image class='form-img' src='../resources/cooperation-phone.png'></image>
+      <input class='form-field' placeholder="联系电话"/>
+    </view>
+    <view>
+      <button class='form-button' bindtap='handleSubmit'>立即提交</button>
+    </view>
+  </view>
+  <view class='cooperation-flow'>
+    <image class='flow-img flow-img-1' src='../resources/coop-l4.png'></image>
+    <image class='flow-img flow-img-2' src='../resources/coop-l5.png'></image>
+    <image class='flow-img flow-img-3' src='../resources/coop-l6.png'></image>
+    <image class='flow-img-line-1' src='../resources/coop-l1.png'></image>
+    <image class='flow-img-line-2' src='../resources/coop-l2.png'></image>
+    <image class='flow-img-line-3' src='../resources/coop-l3.png'></image>
+    <image class='flow-img-text' src='../resources/coop-l0.png'></image>
+
+  </view>
+</view>
